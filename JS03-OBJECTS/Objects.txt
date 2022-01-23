@@ -1,0 +1,23 @@
+In JavaScript, an object is an unorderd collection of key-value pairs. Each pair is colled a property.
+
+following syntax creates an empty object using the literal notation:
+let empty = { }
+
+! to create an object with properties, you use the key:value within curly braces. 
+For example, following creates an object 'person'
+
+let person = {
+    firstName : 'Astra',
+    lastName : 'Yumi',
+
+};
+
+Accessing properties of an object:
+
+To access a property of an object you can use one of two notations :
+1. The dot notation.
+2. The array-like notation.
+
+A. The dot notation:
+    syntax : objectName.propertyName
+    example: person.firstName
